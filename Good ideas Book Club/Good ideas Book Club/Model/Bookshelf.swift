@@ -9,31 +9,31 @@
 import Foundation
 import SwiftyJSON
 
-struct Book {
+struct Book: Hashable {
     var image: String
-    var originPrice: Int
-    var sellPrice: Int
+    var originPrice: String
+    var sellPrice: String
     var name: String
     var link: String
-    var ISBN: Int
-    
+    var ISBN: String
+    var discount: Int? {
+        let origin = (originPrice.replacingOccurrences(of: ",", with: "") as NSString).doubleValue
+        let sell = (sellPrice.replacingOccurrences(of: ",", with: "") as NSString).doubleValue
+        if origin != 0 && sell != 0 && origin > sell {
+            return Int(sell / origin * 100.0)
+        }
+        return nil
+    }
+
     init(json: JSON) {
         self.image = json["image"].stringValue
-        self.originPrice = json["originPrice"].intValue
-        self.sellPrice = json["sellPrice"].intValue
+        self.originPrice = json["originPrice"].stringValue
+        self.sellPrice = json["sellPrice"].stringValue
         self.name = json["name"].stringValue
         self.link = json["link"].stringValue
-        self.ISBN = json["ISBN"].intValue
+        self.ISBN = json["ISBN"].stringValue
     }
 }
 
 
 
-//var discount: Int {
-//    if originPrice != 0 && sellPrice != 0 {
-//        let result = Int((Double(sellPrice) / Double(originPrice)) * 100.0)
-//        return result
-//    } else {
-//        return 0
-//    }
-//}

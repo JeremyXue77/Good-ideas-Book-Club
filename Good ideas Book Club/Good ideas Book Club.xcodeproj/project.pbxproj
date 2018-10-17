@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		578609103BBDBBFBFA5AD777 /* Pods_Good_ideas_Book_Club.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB688016E5F5122775C5392 /* Pods_Good_ideas_Book_Club.framework */; };
 		5E1AAED82170845700F147B9 /* Bookshelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AAED72170845700F147B9 /* Bookshelf.swift */; };
+		5E1AAEDC2171FDB400F147B9 /* BookshelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AAEDB2171FDB400F147B9 /* BookshelfViewController.swift */; };
 		5EA853AD216C8B9200D69F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA853AC216C8B9200D69F59 /* AppDelegate.swift */; };
-		5EA853AF216C8B9200D69F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA853AE216C8B9200D69F59 /* ViewController.swift */; };
 		5EA853B2216C8B9200D69F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA853B0216C8B9200D69F59 /* Main.storyboard */; };
 		5EA853B4216C8B9300D69F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA853B3216C8B9300D69F59 /* Assets.xcassets */; };
 		5EA853B7216C8B9300D69F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA853B5216C8B9300D69F59 /* LaunchScreen.storyboard */; };
@@ -18,9 +18,9 @@
 
 /* Begin PBXFileReference section */
 		5E1AAED72170845700F147B9 /* Bookshelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookshelf.swift; sourceTree = "<group>"; };
+		5E1AAEDB2171FDB400F147B9 /* BookshelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfViewController.swift; sourceTree = "<group>"; };
 		5EA853A9216C8B9200D69F59 /* Good ideas Book Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good ideas Book Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA853AC216C8B9200D69F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EA853AE216C8B9200D69F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EA853B1216C8B9200D69F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EA853B3216C8B9300D69F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA853B6216C8B9300D69F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		5E1AAED42170840700F147B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5EA853AE216C8B9200D69F59 /* ViewController.swift */,
+				5E1AAEDB2171FDB400F147B9 /* BookshelfViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,8 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1AAEDC2171FDB400F147B9 /* BookshelfViewController.swift in Sources */,
 				5E1AAED82170845700F147B9 /* Bookshelf.swift in Sources */,
-				5EA853AF216C8B9200D69F59 /* ViewController.swift in Sources */,
 				5EA853AD216C8B9200D69F59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
