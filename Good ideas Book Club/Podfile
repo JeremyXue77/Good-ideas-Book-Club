@@ -8,4 +8,5 @@ target 'Good ideas Book Club' do
   # Pods for Good ideas Book Club
 	pod 'Alamofire', '~> 4.7'
 	pod 'SwiftyJSON', '~> 4.0' 
+	pod 'Kingfisher'
 end

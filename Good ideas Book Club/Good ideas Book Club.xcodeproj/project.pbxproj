@@ -10,21 +10,31 @@
 		578609103BBDBBFBFA5AD777 /* Pods_Good_ideas_Book_Club.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB688016E5F5122775C5392 /* Pods_Good_ideas_Book_Club.framework */; };
 		5E1AAED82170845700F147B9 /* Bookshelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AAED72170845700F147B9 /* Bookshelf.swift */; };
 		5E1AAEDC2171FDB400F147B9 /* BookshelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AAEDB2171FDB400F147B9 /* BookshelfViewController.swift */; };
+		5E9CEDA12176DAA90048208A /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CEDA02176DAA90048208A /* BookCollectionViewCell.swift */; };
+		5E9CEDA32176E8A90048208A /* BookshelfSeugeIdenifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CEDA22176E8A90048208A /* BookshelfSeugeIdenifier.swift */; };
+		5E9CEDA52176E9420048208A /* BookWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CEDA42176E9420048208A /* BookWebViewController.swift */; };
+		5E9CEDA72177597A0048208A /* BookDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9CEDA62177597A0048208A /* BookDetailCollectionViewCell.swift */; };
 		5EA853AD216C8B9200D69F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA853AC216C8B9200D69F59 /* AppDelegate.swift */; };
 		5EA853B2216C8B9200D69F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA853B0216C8B9200D69F59 /* Main.storyboard */; };
 		5EA853B4216C8B9300D69F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA853B3216C8B9300D69F59 /* Assets.xcassets */; };
 		5EA853B7216C8B9300D69F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA853B5216C8B9300D69F59 /* LaunchScreen.storyboard */; };
+		5EC0A4CC2178B5EB00BFC14C /* AnimationLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC0A4CB2178B5EB00BFC14C /* AnimationLoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E1AAED72170845700F147B9 /* Bookshelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookshelf.swift; sourceTree = "<group>"; };
 		5E1AAEDB2171FDB400F147B9 /* BookshelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfViewController.swift; sourceTree = "<group>"; };
+		5E9CEDA02176DAA90048208A /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E9CEDA22176E8A90048208A /* BookshelfSeugeIdenifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshelfSeugeIdenifier.swift; sourceTree = "<group>"; };
+		5E9CEDA42176E9420048208A /* BookWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWebViewController.swift; sourceTree = "<group>"; };
+		5E9CEDA62177597A0048208A /* BookDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EA853A9216C8B9200D69F59 /* Good ideas Book Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good ideas Book Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA853AC216C8B9200D69F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EA853B1216C8B9200D69F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EA853B3216C8B9300D69F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA853B6216C8B9300D69F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EA853B8216C8B9300D69F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC0A4CB2178B5EB00BFC14C /* AnimationLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLoadingView.swift; sourceTree = "<group>"; };
 		88E1868A1DE8C4520FE3C354 /* Pods-Good ideas Book Club.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Good ideas Book Club.release.xcconfig"; path = "Pods/Target Support Files/Pods-Good ideas Book Club/Pods-Good ideas Book Club.release.xcconfig"; sourceTree = "<group>"; };
 		ECB688016E5F5122775C5392 /* Pods_Good_ideas_Book_Club.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Good_ideas_Book_Club.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA146B1E771DA763A030993 /* Pods-Good ideas Book Club.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Good ideas Book Club.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Good ideas Book Club/Pods-Good ideas Book Club.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				5E1AAEDB2171FDB400F147B9 /* BookshelfViewController.swift */,
+				5E9CEDA42176E9420048208A /* BookWebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -53,7 +64,8 @@
 		5E1AAED52170841100F147B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5EA853B0216C8B9200D69F59 /* Main.storyboard */,
+				5E9CEDA02176DAA90048208A /* BookCollectionViewCell.swift */,
+				5E9CEDA62177597A0048208A /* BookDetailCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,6 +103,7 @@
 				5E1AAED62170841D00F147B9 /* Model */,
 				5E1AAED52170841100F147B9 /* View */,
 				5E1AAED42170840700F147B9 /* Controller */,
+				5EA853B0216C8B9200D69F59 /* Main.storyboard */,
 				5EA853B8216C8B9300D69F59 /* Info.plist */,
 			);
 			path = "Good ideas Book Club";
@@ -100,7 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				5EA853AC216C8B9200D69F59 /* AppDelegate.swift */,
+				5E9CEDA22176E8A90048208A /* BookshelfSeugeIdenifier.swift */,
 				5EA853B5216C8B9300D69F59 /* LaunchScreen.storyboard */,
+				5EC0A4CB2178B5EB00BFC14C /* AnimationLoadingView.swift */,
 				5EA853B3216C8B9300D69F59 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
@@ -200,11 +215,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Good ideas Book Club/Pods-Good ideas Book Club-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1AAEDC2171FDB400F147B9 /* BookshelfViewController.swift in Sources */,
+				5E9CEDA12176DAA90048208A /* BookCollectionViewCell.swift in Sources */,
+				5E9CEDA72177597A0048208A /* BookDetailCollectionViewCell.swift in Sources */,
+				5E9CEDA52176E9420048208A /* BookWebViewController.swift in Sources */,
+				5E9CEDA32176E8A90048208A /* BookshelfSeugeIdenifier.swift in Sources */,
 				5E1AAED82170845700F147B9 /* Bookshelf.swift in Sources */,
+				5EC0A4CC2178B5EB00BFC14C /* AnimationLoadingView.swift in Sources */,
 				5EA853AD216C8B9200D69F59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -371,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PAC9XA99N;
 				INFOPLIST_FILE = "Good ideas Book Club/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,7 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PAC9XA99N;
 				INFOPLIST_FILE = "Good ideas Book Club/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
